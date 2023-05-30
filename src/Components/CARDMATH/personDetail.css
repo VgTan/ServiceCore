@@ -1,0 +1,218 @@
+.containerDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  background: repeating-linear-gradient(to top, white, azure);
+}
+
+.cardDetail {
+  position: relative;
+  width: 600px;
+  /* background-color: #f5f5f5; */
+  background: linear-gradient(to bottom, white, #f0f0f0);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 20px;
+}
+
+.cardDetail-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardDetail-headInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cardDetail-headInfo h2{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.cardDetail-rating {
+  color: gold;
+  font-size: 1.2rem;
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.cardDetail-ratingNum {
+  color: gold;
+  padding-left: 0.4rem;
+  padding-top: 1rem;
+}
+
+.cardDetail-ratingSales {
+  color: black;
+  padding-left: 0.4rem;
+  padding-top: 1rem;
+}
+
+.cardDetail-fire {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: darkorange;
+}
+
+.cardDetail-head img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.cardDetail-head h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cardDetail-body {
+  margin-bottom: 20px;
+}
+
+.cardDetail-body p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cardDetail-body p:first-child {
+  margin-top: 0;
+}
+
+.cardDetail-body p:last-child {
+  margin-bottom: 0;
+}
+
+.cardDetail-bodyContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDetail-number {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.cardDetail-email {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.cardDetail-location{
+  display: inline-flex;
+  text-align: left;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.cardDetail-logoPhone {
+  font-size: 3rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  color: white;
+  margin-right: 1rem;
+}
+
+.cardDetail-logoEmail {
+  font-size: 3rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  color: white;
+  margin-right: 1rem;
+}
+
+.cardDetail-logoLocation {
+  font-size: 3rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  color: white;
+  margin-right: 1rem;
+}
+
+.cardDetail-bodySkills {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.cardDetail-logoSkillTitle {
+  padding: 0.4rem;
+  font-size: 4rem;
+  margin-right: 0.7rem;
+}
+
+.cardDetail-logoSkillTitleText{
+  font-weight: bold;
+  padding: 0;
+}
+.cardDetail-bodySkillList {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cardDetail-bodySkillComp{
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-right: 0.4rem;
+  margin: 0.5rem;
+}
+
+.cardDetail-bodyStatement {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDetail-bodyStatementTitle {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+}
+
+.cardDetail-logoStatement {
+  font-size: 4rem;
+  padding-right: 0.4rem;
+  margin-right: 0.7rem;
+}
+@media (max-width: 798px) {
+  .containerDetail {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .cardDetail {
+      width: 90%;
+  }
+}

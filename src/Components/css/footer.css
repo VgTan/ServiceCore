@@ -1,0 +1,70 @@
+.contact_square {
+  position: relative;
+  width: 100vw;
+  background-color: #222222;
+  font-weight: 100;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#text_contact {
+  color: white;
+  padding-top: 20px;
+  margin-left: 5px;
+  margin-left: 2vw;
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 1s ease, transform 1s ease;
+}
+#text_contact p {
+  font-size: smaller;
+  font-size: 15px;
+}
+#text_contact.animate {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+#socmed {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo_wemen {
+  position: absolute;
+  top: 7%;
+  right: 0;
+  height: 150px;
+  margin-right: 2vw;
+}
+.logo_footer {
+  border-radius: 50%;
+  position: absolute;
+  top: 7%;
+  right: 8%;
+  height: 75px;
+  margin-right: 2vw;
+}
+.text2 p {
+  margin-right: 1vw;
+
+  text-align: right;
+  margin-bottom: 2px;
+  color: white;
+}
+
+#socmed img {
+  margin-top: -150px;
+  width: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo_wemen {
+    top: 50%;
+    height: 100px;
+  }
+  .logo_footer {
+    top: 50%;
+    height: 50px;
+    right: 15%;
+  }
+}

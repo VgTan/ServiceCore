@@ -1,0 +1,20 @@
+[
+  {
+    "image": "./image/hepi_femili.jpg",
+    "title": "Fulfill your daily service needs",
+    "subTitle": "Meningkatkan Edukasi via Daring",
+    "interval": 3000
+  },
+  {
+    "image": "./image/home_study.jpg",
+    "title": "Fulfill your daily service needs",
+    "subTitle": "Membantu Edukasi Anak",
+    "interval": 3000
+  },
+  {
+    "image": "./image/domestic_wroker.jpg",
+    "title": "Fulfill your daily service needs",
+    "subTitle": "Pelayanan Jasa yang Terpercaya",
+    "interval": 3000
+  }
+]

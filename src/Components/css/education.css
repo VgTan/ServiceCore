@@ -1,0 +1,124 @@
+.container-edu {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info {
+  padding-top: 50px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  /*
+background-image: url("https://p4.wallpaperbetter.com/wallpaper/657/137/89/work-finance-documents-office-wallpaper-preview.jpg");
+*/
+  margin: 0;
+  background-size: cover;
+  /*background-color: #9BA4B5;
+*/
+  align-items: center;
+  animation: FadeIn 1s;
+}
+
+.bersih{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.box {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  border: transparent;
+  border-radius: 13px;
+  background-color:midnightblue;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.box:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  cursor: pointer;
+}
+
+
+
+#science {
+  animation: slideInBottom 2.7s;
+}
+
+#eng {
+  animation: slideInBottom 2.5s;
+}
+
+#bahasa {
+  animation: slideInBottom 2.3s;
+}
+
+#mat {
+  animation: slideInBottom 2s;
+}
+
+#toilet {
+  animation: slideInBottom 3s;
+}
+
+#toilet button {
+  margin-bottom: 40px;
+}
+
+.box button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  width: 250px;
+  height: 27px;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
